@@ -1,0 +1,7 @@
+pick_otus:enable_rev_strand_match       True
+align_seqs:template_fp ../references/SILVA123_QIIME_release/core_alignment/core_alignment_SILVA123.fasta
+filter_alignment:suppress_lane_mask_filter True
+filter_alignment:entropy_threshold 0.10
+assign_taxonomy:assignment_method uclust
+assign_taxonomy:id_to_taxonomy_fp ../references/SILVA123_QIIME_release/taxonomy/taxonomy_all/97/taxonomy_all_levels.txt
+assign_taxonomy:reference_seqs_fp ../references/SILVA123_QIIME_release/rep_set/rep_set_all/97/97_otus.fasta
